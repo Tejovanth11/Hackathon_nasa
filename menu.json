@@ -1,0 +1,532 @@
+{
+  "MENU": [
+    {
+      "name": "",
+      "items": [
+        {
+          "type": "item",
+          "icon": "Offer",
+          "text": "LTO_TITLE",
+          "textColorTag": "offerTextColor",
+          "action": "OpenOffer"
+        },
+        {
+          "type": "item",
+          "icon": "Store",
+          "text": "STORE_NAVIGATION_TITLE",
+          "action": "OpenStore"
+        },
+        {
+          "type": "item",
+          "icon": "Options",
+          "text": "menuOptions",
+          "button": "ChildButton",
+          "action": "OpenItem",
+          "parameter": "menuOptions"
+        },
+        {
+          "type": "item",
+          "icon": "Share",
+          "text": "MENU_SHARE",
+          "action": "Share",
+          "parameter": "activity"
+        },
+        {
+          "type": "item",
+          "icon": "ExitTheApp",
+          "text": "MENU_EXIT",
+          "action": "ExitTheApp"
+        }
+      ]
+    },
+    {
+      "name": "MENU_SKY_WATCHING",
+      "items": [
+        {
+          "type": "item",
+          "icon": "MenuNewsFeed",
+          "text": "NewsFeed",
+          "action": "OpenNewsFeed"
+        },
+        {
+          "type": "item",
+          "icon": "MenuCalendar",
+          "text": "menuCalendar",
+          "action": "OpenCalendar"
+        },
+        {
+          "type": "item",
+          "icon": "MenuSkyTonight",
+          "text": "VisibleTonight",
+          "action": "OpenSkyTonight"
+        },
+        {
+          "type": "item",
+          "icon": "MenuSkyLive",
+          "text": "menuSkyLive",
+          "action": "OpenSkyLive"
+        },
+        {
+          "type": "item",
+          "icon": "Photo",
+          "text": "Astrophoto",
+          "action": "Photo"
+        }
+      ]
+    },
+    {
+      "name": "MENU_ENTERTAINMENT",
+      "text": "MENU_ENTERTAINMENT",
+      "items": [
+        {
+          "type": "item",
+          "icon": "MenuQuizFeed",
+          "text": "menuQuizFeed",
+          "action": "OpenQuizFeed"
+        },
+        {
+          "type": "item",
+          "text": "SWKVideos",
+          "action": "OpenSWKVideos"
+        }
+      ]
+    },
+    {
+      "name": "MENU_OUR_APPS",
+      "text": "MENU_OUR_APPS",
+      "items": [
+        {
+          "type": "appItem",
+          "text": "App1",
+          "index": "1"
+        },
+        {
+          "type": "appItem",
+          "text": "App2",
+          "index": "2"
+        },
+        {
+          "type": "appItem",
+          "text": "App3",
+          "index": "3"
+        },
+        {
+          "type": "item",
+          "text": "MENU_MORE_APPS",
+          "action": "OpenMarket",
+          "parameter": "%VITO_APPS%"
+        }
+      ]
+    },
+    {
+      "name": "menuAbout",
+      "items": [
+        {
+          "type": "item",
+          "text": "HELP_RATE",
+          "action": "Rate"
+        },
+        {
+          "type": "item",
+          "text": "HELP_ACCOUNT",
+          "button": "childButton",
+          "action": "OpenItem",
+          "parameter": "HELP_ACCOUNT"
+        },
+        {
+          "type": "item",
+          "text": "HELP_SUBSCRIBE",
+          "button": "childButton",
+          "action": "OpenItem",
+          "parameter": "HELP_SUBSCRIBE"
+        },
+        {
+          "type": "item",
+          "text": "HELP_CREDITS",
+          "button": "childButton",
+          "action": "OpenItem",
+          "parameter": "HELP_CREDITS"
+        }
+      ]
+    },
+    {
+      "name": "menuHelp",
+      "items": [
+        {
+          "type": "item",
+          "text": "HELP_TUTORIAL",
+          "action": "OpenTutorial"
+        },
+        {
+          "type": "item",
+          "text": "HELP_FAQ",
+          "button": "childButton",
+          "action": "OpenItem",
+          "parameter": "HELP_FAQ"
+        },
+        {
+          "type": "item",
+          "text": "HELP_MANUAL",
+          "action": "OpenUrl",
+          "parameter": "https://starwalk.space/assets/starwalk2_manual_en.pdf"
+        },
+        {
+          "type": "item",
+          "text": "HELP_FEEDBACK",
+          "action": "SendFeedback"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "items": [
+        {
+          "type": "copyright",
+          "text": "HELP_ABOUT_LABEL3"
+        }
+      ]
+    }
+  ],
+  "menuOptions": [
+    {
+      "name": "optionsSectionMain",
+      "items": [
+        {
+          "type": "item",
+          "text": "menuNotifications",
+          "button": "ChildButton",
+          "action": "OpenItem",
+          "parameter": "menuNotifications"
+        },
+        {
+          "type": "item",
+          "text": "optionsVisualEffects",
+          "action": "OpenItem",
+          "parameter": "optionsVisualEffects",
+          "button": "ChildButton"
+        },
+        {
+          "type": "item",
+          "text": "optionsTelescope",
+          "action": "OpenItem",
+          "parameter": "optionsTelescope",
+          "button": "ChildButton"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsNightMode",
+          "name": "NightMode"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsTelrad",
+          "name": "TelRad"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsSpectrum",
+          "name": "Spectrum"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsEcliptic",
+          "name": "Ecliptic"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsCaptions",
+          "name": "Captions"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsSound",
+          "name": "Sound"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsMusic",
+          "name": "Music"
+        }
+      ]
+    },
+    {
+      "name": "optionsSectionLocation",
+      "items": [
+        {
+          "type": "location"
+        }
+      ]
+    },
+    {
+      "name": "optionsSectionMagnitude",
+      "items": [
+        {
+          "type": "slider",
+          "name": "Magnitude"
+        }
+      ]
+    },
+    {
+      "name": "optionsSectionConstellation",
+      "items": [
+        {
+          "type": "tabControl",
+          "name": "ConstellationItem"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsMarvelConstellations",
+          "name": "MarvelConstellations"
+        }
+      ]
+    },
+    {
+      "name": "optionsSectionUnits",
+      "items": [
+        {
+          "type": "tabControl",
+          "name": "Fahrenheit"
+        },
+        {
+          "type": "tabControl",
+          "name": "Imperial"
+        }
+      ]
+    }
+  ],
+  "menuNotifications": [
+    {
+      "name": "",
+      "items": [
+        {
+          "name": "notificationSettings",
+          "type": "link",
+          "beforeLink": "optionsNotificationSettings_label0",
+          "link": "menuNotifications",
+          "url": "notificationSettings"
+        },
+        {
+          "name": "notificationSettingsAsked",
+          "type": "link",
+          "beforeLink": "optionsNotificationSettings_label1",
+          "link": "optionsNotificationSettings_label3",
+          "afterLink": "optionsNotificationSettings_label2",
+          "url": "notificationSettingsAsked"
+        },
+        {
+          "type": "switcher",
+          "name": "CalendarEvents",
+          "text": "optionsCalendarEvents",
+          "description": "optionsCalendarEventsDescription"
+        },
+        {
+          "type": "switcher",
+          "name": "ISSEvents",
+          "text": "optionsISSEvents",
+          "description": "optionsISSEventsDescription"
+        },
+        {
+          "type": "reminder",
+          "name": "Reminder"
+        },
+        {
+          "type": "switcher",
+          "name": "SilentEventMode",
+          "text": "optionsDoNotDisturb",
+          "description": "optionsDoNotDisturbDescription"
+        },
+        {
+          "type": "rangeSlider",
+          "name": "DoNotDisturbRange",
+          "usePrefabHeight": true
+        }
+      ]
+    }
+  ],
+  "optionsVisualEffects": [
+    {
+      "name": "",
+      "items": [
+        {
+          "type": "switcher",
+          "text": "optionsAtmosphere",
+          "name": "Atmosphere"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsHorizon",
+          "name": "Horizon"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsWater",
+          "name": "Water"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsConstellationBlink",
+          "name": "ConstellationBlink"
+        },
+        {
+          "type": "switcher",
+          "text": "optionsMeteors",
+          "name": "Meteors"
+        }
+      ]
+    }
+  ],
+  "optionsTelescope": [
+    {
+      "name": "",
+      "items": [
+        {
+          "type": "switcher",
+          "text": "optionsTelescopeMirror",
+          "name": "TelescopeMirrorMode"
+        }
+      ]
+    }
+  ],
+  "MENU_SHARE": [
+    {
+      "name": "",
+      "items": [
+        {
+          "type": "item",
+          "icon": "ShareEmail",
+          "text": "SHARE_MAIL",
+          "action": "Share",
+          "parameter": "mail"
+        },
+        {
+          "type": "item",
+          "icon": "ShareTwitter",
+          "text": "SHARE_TWITTER",
+          "action": "Share",
+          "parameter": "twitter"
+        },
+        {
+          "type": "item",
+          "icon": "ShareFacebook",
+          "text": "SHARE_FACEBOOK",
+          "action": "Share",
+          "parameter": "facebook"
+        },
+        {
+          "type": "item",
+          "icon": "ShareInstagram",
+          "text": "SHARE_INSTAGRAM",
+          "action": "Share",
+          "parameter": "instagram"
+        },
+        {
+          "type": "item",
+          "icon": "ShareSave",
+          "text": "SHARE_SAVE",
+          "action": "Share",
+          "parameter": "gallery"
+        }
+      ]
+    }
+  ],
+  "HELP_SUBSCRIBE": [
+    {
+      "name": "",
+      "items": [
+        {
+          "type": "web",
+          "local": true,
+          "url": "HELP_SUBSCRIBE.html"
+        }
+      ]
+    }
+  ],
+  "HELP_ACCOUNT": [
+    {
+      "name": "",
+      "items": [
+        {
+          "type": "web",
+          "name": "Account",
+          "local": true,
+          "request": true,
+          "url": "Redirect.html"
+        }
+      ]
+    }
+  ],
+  "HELP_CREDITS": [
+    {
+      "name": "Star Walk 2 Free",
+      "items": [
+        {
+          "type": "link",
+          "beforeLink": "HELP_CREDITS_VITO_LABEL1",
+          "link": "HELP_CREDITS_VITO_LABEL2",
+          "afterLink": "HELP_CREDITS_VITO_LABEL3",
+          "url": "https://vitotechnology.com"
+        }
+      ]
+    },
+    {
+      "name": "HELP_CONTENT",
+      "items": [
+        {
+          "type": "link",
+          "beforeLink": "HELP_CREDITS_ESA_LABEL1",
+          "link": "HELP_CREDITS_ESA_LABEL2",
+          "url": "http://www.esa.int"
+        },
+        {
+          "type": "link",
+          "beforeLink": "HELP_CREDITS_MUSIC_LABEL1",
+          "link": "HELP_CREDITS_MUSIC_LABEL2",
+          "url": "http://apps.apple.com/album/solar-walk-2/id521481268"
+        },
+        {
+          "type": "link",
+          "beforeLink": "HELP_CREDITS_KIDSASTRONOMY_LABEL1",
+          "link": "HELP_CREDITS_KIDSASTRONOMY_LABEL2",
+          "url": "http://kidsastronomy.com"
+        },
+        {
+          "type": "link",
+          "beforeLink": "HELP_CREDITS_UNIVERSETODAY_LABEL1",
+          "link": "HELP_CREDITS_UNIVERSETODAY_LABEL2",
+          "url": "http://universetoday.com"
+        },
+        {
+          "type": "link",
+          "beforeLink": "HELP_CREDITS_Myths_Constellations_label1",
+          "link": "HELP_CREDITS_Myths_Constellations_label2",
+          "url": "http://www.ianridpath.com/startales/startales3.htm"
+        },
+        {
+          "type": "link",
+          "beforeLink": "HELP_CREDITS_Missions_label1",
+          "link": "HELP_CREDITS_Missions_label2",
+          "url": "http://planetary.org"
+        },
+        {
+          "type": "link",
+          "beforeLink": "HELP_CREDITS_3D_StarClusters_label1",
+          "link": "HELP_CREDITS_3D_StarClusters_label2",
+          "url": "https://www.tu-braunschweig.de"
+        },
+        {
+          "type": "link",
+          "beforeLink": "HELP_CREDITS_Tourism_Partner_Nakai_label1",
+          "link": "HELP_CREDITS_Tourism_Partner_Nakai_label2",
+          "url": "https://nakairesorts.com"
+        },
+        {
+          "type": "link",
+          "beforeLink": "HELP_CREDITS_CoOperator_Nakai_label1",
+          "link": "HELP_CREDITS_CoOperator_Nakai_label2",
+          "url": "https://www.instagram.com/nemophotographer/"
+        }
+      ]
+    }
+  ],
+  "HELP_FAQ": []
+}

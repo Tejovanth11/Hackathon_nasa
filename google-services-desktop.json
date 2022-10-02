@@ -1,0 +1,57 @@
+{
+  "project_info": {
+    "project_number": "235403714900",
+    "firebase_url": "https://star-walk-2-free-150304.firebaseio.com",
+    "project_id": "star-walk-2-free-150304",
+    "storage_bucket": "star-walk-2-free-150304.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235403714900:android:7fafc591ef6b3f84",
+        "android_client_info": {
+          "package_name": "com.vitotechnology.StarWalk2Free"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235403714900-8pae0l88c9vn632epr7eu3k3a0cpm0je.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vitotechnology.StarWalk2Free",
+            "certificate_hash": "721bd1052d44c25d4bcaa6221d1814b38af89c7c"
+          }
+        },
+        {
+          "client_id": "235403714900-gq9ekjuk14ktqlqebb9josro63ub1760.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6RFSyAcse9x0JUDuqrcF_E-G6nnA-XFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235403714900-gq9ekjuk14ktqlqebb9josro63ub1760.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "235403714900-0n0a29thg7bhl24ns5rp4e2tmctoke14.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vitotechnology.StarWalk2Free",
+                "app_store_id": "1112481571"
+              }
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-1372340707249121~9556165294"
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+[
+	{
+		"title": "tutorial_slide_1_title",
+		"texts": ["tutorial_slide_1_string_1", "tutorial_slide_1_string_2"],
+		"image": "tutorial_slide_1"
+	},
+	{
+		"title": "tutorial_slide_2_title",
+		"texts": ["tutorial_slide_2_string_1"],
+		"image": "tutorial_slide_2"
+	},
+	{
+		"title": "tutorial_slide_3_title",
+		"texts": ["tutorial_slide_3_string_1"],
+		"image": "tutorial_slide_3",
+		"icon": "tutorial_icon_1"
+	},
+	{
+		"title": "tutorial_slide_13_title",
+		"texts": ["tutorial_slide_13_string_1"],
+		"button": 
+		{
+			"icon": "tutorial_button_icon_notification",
+			"title": "optionsNotificationSettings_label0",
+			"action": "turn_on_notifications"
+		}
+	},
+	{
+		"title": "tutorial_slide_12_title",
+		"texts": ["tutorial_slide_12_string_1"],
+		"image": "tutorial_slide_12"
+	},
+	{
+		"title": "tutorial_slide_4_title",
+		"texts": ["tutorial_slide_4_string_1"],
+		"image": "tutorial_slide_4"
+	},
+	{
+		"title": "tutorial_slide_5_title",
+		"texts": ["tutorial_slide_5_string_1"],
+		"image": "tutorial_slide_5"
+	},
+	{
+		"title": "tutorial_slide_6_title",
+		"texts": ["tutorial_slide_6_string_1"],
+		"image": "tutorial_slide_6",
+		"icon": "tutorial_icon_3"
+	},
+	{
+		"title": "tutorial_slide_7_title",
+		"texts": ["tutorial_slide_7_string_1"],
+		"image": "tutorial_slide_7",
+		"icon": "tutorial_icon_3"
+	},
+	{
+		"title": "tutorial_slide_8_title",
+		"texts": ["tutorial_slide_8_string_1"],
+		"image": "tutorial_slide_8"
+	},
+	{
+		"title": "tutorial_slide_10_title",
+		"texts": ["tutorial_slide_10_string_1"],
+		"image": "tutorial_slide_10"
+	}
+]

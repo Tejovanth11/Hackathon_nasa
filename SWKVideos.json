@@ -1,0 +1,92 @@
+[
+	{
+		"name" : "sun", 
+		"localization_tag" : "name_Sun", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "mercury", 
+		"localization_tag" : "name_Mercury", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "venus", 
+		"localization_tag" : "name_Venus", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "earth", 
+		"localization_tag" : "name_Earth", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "moon", 
+		"localization_tag" : "name_Moon", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "comets", 
+		"localization_tag" : "comets", 
+		"localization_list" : ""
+	},
+	{
+		"name" : "mars", 
+		"localization_tag" : "name_Mars", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "jupiter", 
+		"localization_tag" : "name_Jupiter", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "saturn", 
+		"localization_tag" : "name_Saturn", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "uranus", 
+		"localization_tag" : "name_Uranus", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "neptune", 
+		"localization_tag" : "name_Neptune", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "20580", 
+		"localization_tag" : "shortname_20580", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "stars", 
+		"localization_tag" : "Stars", 
+		"localization_list" : ""
+	},
+	{
+		"name" : "hr424", 
+		"localization_tag" : "name_hr424", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "cygx1", 
+		"localization_tag" : "cygx-1_name", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "constellations", 
+		"localization_tag" : "Constellations", 
+		"localization_list" : ""
+	},
+	{
+		"name" : "uma", 
+		"localization_tag" : "name_UMa", 
+		"localization_list" : "name"
+	},
+	{
+		"name" : "ori", 
+		"localization_tag" : "name_Ori", 
+		"localization_list" : "name"
+	}
+]
